@@ -1,0 +1,321 @@
+/*  GENERAL  */
+
+.wrap {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/*MOBILE*/
+.title-bar-title {
+  font-family: 'Karla', sans-serif;
+}
+
+/*  NAV - DESKTOP  */
+
+.nav-desktop {
+  background-color: #222;
+  height: 80px;
+  padding-top: 0px;
+}
+
+.site-logo {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  line-height: 80px;
+  height:100px;
+  width: 300px;
+}
+
+.white-daisy {
+  height: 140px;
+  width: 140px;
+  margin-right: 300px;
+}
+
+.nav-desktop .menu-desktop {
+  line-height: 80px;
+  background-color: transparent;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.3em;
+}
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+}
+
+.is-dropdown-submenu {
+  min-width: 124px;
+  border-radius: 0 0 10px 10px;
+}
+
+/*.menu > li > a:hover*/
+
+.is-dropdown-submenu > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+}
+
+/*  HERO  */
+
+.hero-index{
+  background-color: #999;
+  padding: 60px 0px;
+  height: 420px;
+  background-image: url('../img/purple-flowers.jpeg');
+  padding-left: 75px;
+  width: 100%;
+}
+
+.hero-portfolio{
+  background-color: #999;
+  padding: 60px 0px;
+  height: 420px;
+  background-image: url('../img/sunflowers.jpeg');
+  padding-left: 75px;
+  width: 100%;
+}
+
+.hero-music {
+  background-color: #999;
+  padding: 60px 0px;
+  height: 420px;
+  background-image: url('../img/banjoCabin2.jpg');
+  padding-left: 75px;
+  width: 100%;
+}
+
+.hero-projects {
+  background-color: #999;
+  padding: 60px 0px;
+  height: 420px;
+  background-image: url('../img/sanddunes.jpg');
+  padding-left: 75px;
+  width: 100%;
+}
+
+.name {
+  width: 700px;
+  height: 200px;
+}
+
+.flower {
+  width: 200px;
+  height: 200px;
+}
+
+/*  MAIN CONTENT  */
+
+.main {
+  padding: 30px 0px;
+
+}
+
+.mainText {
+  font-family: 'Karla', sans-serif;
+}
+
+/*  FOOTER  */
+
+footer {
+
+  background-color: #222;
+  padding: 30px 0px 20px 0px;
+  width: 100%:
+  height: 100px;
+}
+
+.footertext {
+  font-family: 'Karla', sans-serif;
+  font-size: 2.3em;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+ul .inline-list .social {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+}
+
+
+.contactEmail {
+  width: 62px;
+  height: 62px;
+  display: inline-block;
+  margin: 8px;
+}
+
+.contactLI {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 8px;
+}
+
+.contactGithub {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 16px;
+}
+
+footer h4 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3em;
+}
+
+footer hr {
+  border-color:rgba(255, 255, 255, 0.1);
+  margin: 10px 0;
+
+}
+
+footer a {
+  display: inline-block;;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8em;
+}
+
+footer a span {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+footer a:hover {
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/*  MEDIA QUERY  */
+
+@media (max-width: 639px) {
+
+  .nav-desktop {
+    display: none;
+  }
+}
+
+/*PORTFOLIO PAGE*/
+
+.portTitle {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+
+.portText {
+  width: 100%;
+
+}
+
+.portImage {
+  height: 480px;
+  width: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/*MUSIC PAGE*/
+
+.nineDollar {
+  height: 300px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  border-radius: 50em;
+
+
+}
+
+.loriBanjo {
+  height: 450px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.4);
+  -moz-box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.4);
+  box-shadow: inset 0 0 1px rgba(0,0,0,.8), inset 0 2px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(0,0,0,.4);
+
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.audio1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.audio2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*CAUSES PAGE*/
+
+.causeText{
+  text-align: center;
+}
+
+.causeImage1{
+  height: 150px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.causeImage2{
+  height: 150px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.causeImage3{
+  height: 150px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.causeImage4{
+  height: 150px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.causeImage5{
+  height: 200px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
